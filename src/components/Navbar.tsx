@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { Calendar, News, MessageSquare, Users } from "lucide-react";
+import { Calendar, Newspaper, MessageSquare, Users } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -26,7 +26,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link to="/noticias" className="flex items-center space-x-1 text-sm font-medium text-muted-foreground hover:text-bucaratec-600">
-                <News className="h-4 w-4" />
+                <Newspaper className="h-4 w-4" />
                 <span>Noticias</span>
               </Link>
             </li>
